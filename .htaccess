@@ -1,0 +1,6 @@
+RewriteEngine On
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header always append X-Frame-Options SAMEORIGIN
+</IfModule>
